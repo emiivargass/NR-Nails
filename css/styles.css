@@ -1,0 +1,102 @@
+/*................INICIO MENU NAV...............*/
+
+
+.cabecera {
+    background-color: rgb(253, 182, 194);
+    font-family: 'Dancing Script', cursive;
+    font-size: 220%;
+
+}
+
+.cabecera ul a {
+    color: rgb(255, 255, 255);
+
+}
+
+.navbar-brand {
+    font-size: 200%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+
+}
+
+/*................. FIN MENU NAV..............*/
+
+
+/*................ INICIO MAIN...............*/
+.contenido {
+    background-image: url(/images/Fondo\ Index.jpg);
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.titulo-contenido {
+    color: rgb(168, 61, 154);
+    font-family: 'Dancing Script', cursive;
+    font-size: 320%;
+    padding: 3%;
+
+}
+
+.texto-contenido {
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-size: 220%;
+    margin-right: 50%;
+    padding: 1%;
+}
+
+.GaleriaImg {
+    display: flex;
+    justify-items: left;
+    margin: 3% 65% 3% 3%;
+
+}
+
+
+
+/*................ FIN MAIN...............*/
+
+
+/*................ INICIO FOOTER...............*/
+
+.pie-pag {
+    background-color: rgb(253, 182, 194);
+    padding: 1%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 220%;
+}
+
+
+.redes a i {
+    font-size: 25px;
+    text-align: center;
+    padding: 2%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+.redes i {
+    margin: 1%;
+
+
+}
+
+.redes a i:hover {
+    transform: scale(1.5);
+    transition: all 1s ease;
+}
+
+
+
+/*................ FIN FOOTER...............*/
