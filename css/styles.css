@@ -8,7 +8,8 @@ a:active {
 .tituloPrincipal {
     font-family: 'Dancing Script', cursive;
     color: rgb(255, 255, 255);
-    font-size: 150
+    text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.918);
+
 }
 
 
@@ -16,8 +17,13 @@ a:active {
     background-color: rgb(253, 182, 194);
     font-family: 'Dancing Script', cursive;
     font-size: 220%;
-
+    text-shadow: 1% 1% 1% black;
 }
+
+.navbar-brand img {
+    border-radius: 3%;
+}
+
 
 .cabecera ul a {
     color: rgb(255, 255, 255);
@@ -67,6 +73,10 @@ a:active {
 
 }
 
+.GaleriaImg img {
+    border-radius: 5%;
+}
+
 
 
 /*................ FIN MAIN...............*/
@@ -79,28 +89,120 @@ a:active {
     background-image: url(../images/Fondo-Servicios.jpg);
 }
 
+.servicios {
+    display: grid;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+
+
+.btn {
+    background-color: rgb(253, 182, 194);
+    border-color: black;
+    color: black;
+    animation-name: parpadeo;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: parpadeo;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+.btn:hover{
+    background-color: rgb(253, 182, 194);
+    border-color: black;
+    color: black;
+}
+
+@-moz-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+
 /*................ FIN MAIN...............*/
 
 /*................ INICIO FOOTER...............*/
 
 .pie-pag {
     background-color: rgb(253, 182, 194);
-    padding: 1%;
     color: rgb(255, 255, 255);
-}
-
-.redes {
     display: flex;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 150%;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pie-pag a i {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1%;
 
 }
 
-
-.redes a i:hover {
+.pie-pag a i:hover {
     transform: scale(1.5);
     transition: all 1s ease;
+}
+
+.Logos {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+    width: auto;
+    max-height: 110px;
+    max-width: 70px;
+    flex-wrap: wrap;
+
 }
 
 
@@ -119,7 +221,8 @@ a:active {
     .titulo-contenido {
         text-align: center;
     }
-    .GaleriaImg{
+
+    .GaleriaImg {
         width: 100vw;
     }
 }
