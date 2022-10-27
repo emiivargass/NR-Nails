@@ -1,5 +1,16 @@
 /*................INICIO MENU NAV...............*/
 
+a,
+a:active {
+    text-decoration: none;
+}
+
+.tituloPrincipal {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 150
+}
+
 
 .cabecera {
     background-color: rgb(253, 182, 194);
@@ -26,7 +37,7 @@
 
 /*................ INICIO MAIN...............*/
 .contenido {
-    background-image: url(/images/Fondo\ Index.jpg);
+    background-image: url(../images/Fondo\ Index.jpg);
     display: flex;
     flex-direction: column;
 
@@ -45,8 +56,8 @@
     display: flex;
     font-family: 'Dancing Script', cursive;
     font-size: 220%;
-    margin-right: 50%;
     padding: 1%;
+    width: 50vw;
 }
 
 .GaleriaImg {
@@ -64,9 +75,9 @@
 /*................ PAGINA SERVICIOS...............*/
 
 /*................ INICIO MAIN...............*/
-.fondo-serv{
+.fondo-serv {
     background-image: url(../images/Fondo-Servicios.jpg);
-}     
+}
 
 /*................ FIN MAIN...............*/
 
@@ -76,30 +87,16 @@
     background-color: rgb(253, 182, 194);
     padding: 1%;
     color: rgb(255, 255, 255);
+}
+
+.redes {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    font-family: 'Dancing Script', cursive;
-    font-size: 220%;
-}
-
-
-.redes a i {
-    font-size: 25px;
-    text-align: center;
-    padding: 2%;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    list-style: none;
-
+    align-content: center;
 
 }
 
-.redes i {
-    margin: 1%;
-
-
-}
 
 .redes a i:hover {
     transform: scale(1.5);
@@ -109,3 +106,20 @@
 
 
 /*................ FIN FOOTER...............*/
+
+/*................MEDIA QUERIES...............*/
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+
+    .texto-contenido {
+        width: 100vw;
+        padding: 4%;
+    }
+
+    .titulo-contenido {
+        text-align: center;
+    }
+    .GaleriaImg{
+        width: 100vw;
+    }
+}
