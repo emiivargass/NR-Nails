@@ -1,10 +1,13 @@
 a,
 a:active {
     text-decoration: none;
+
 }
 
+
 .tituloPrincipal {
-    font-family: 'Dancing Script', cursive;
+    font-family: $tipografia;
+    
     color: rgb(255, 255, 255);
     text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.918);
 
@@ -13,27 +16,31 @@ a:active {
 
 .cabecera {
     background-color: $color-fondo;
-    font-family: 'Dancing Script', cursive;
+    font-family: $tipografia;
     font-size: 220%;
     text-shadow: 1% 1% 1% black;
+
+    ul a {
+        color: rgb(255, 255, 255);
+
+    }
+
+    .navbar-brand img {
+        border-radius: 3%;
+    }
+
+    .navbar-brand {
+        font-size: 200%;
+        font-family: $tipografia;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+
+    }
 }
 
-.navbar-brand img {
-    border-radius: 3%;
-}
 
 
-.cabecera ul a {
-    color: rgb(255, 255, 255);
 
-}
 
-.navbar-brand {
-    font-size: 200%;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-
-}
 
 /*................. FIN MENU NAV..............*/

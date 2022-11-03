@@ -3,12 +3,13 @@
     display: flex;
     flex-direction: column;
 
+
 }
 
 
 .titulo-contenido {
     color: rgb(168, 61, 154);
-    font-family: 'Dancing Script', cursive;
+    font-family: $tipografia;
     font-size: 320%;
     padding: 3%;
 
@@ -16,7 +17,7 @@
 
 .texto-contenido {
     display: flex;
-    font-family: 'Dancing Script', cursive;
+    font-family: $tipografia;
     font-size: 220%;
     padding: 1%;
     width: 50vw;

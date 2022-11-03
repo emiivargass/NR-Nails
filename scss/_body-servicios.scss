@@ -9,13 +9,23 @@
     align-items: center;
     text-align: center;
     padding: 5%;
+    font-family: $tipografia;
+    p{
+        font-size: 150%;
+    }
+    h5{
+        font-size: 200%;
+        background-color: $color-fondo;
+    }
+   
 }
 
 
 .btn {
-    background-color: rgb(253, 182, 194);
+    background-color: $color-fondo;
     border-color: black;
     color: black;
+    margin: 5%;
     animation-name: parpadeo;
     animation-duration: 2s;
     animation-timing-function: linear;
@@ -27,7 +37,7 @@
     -webkit-animation-iteration-count: infinite;
 }
 .btn:hover{
-    background-color: rgb(253, 182, 194);
+    background-color: $color-fondo;
     border-color: black;
     color: black;
 }
