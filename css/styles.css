@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a,
+a:active {
+  text-decoration: none; }
+
+.tituloPrincipal {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.918); }
+
+.cabecera {
+  background-color: #fdb6c2;
+  font-family: 'Dancing Script', cursive;
+  font-size: 220%;
+  text-shadow: 1% 1% 1% black; }
+
+.navbar-brand img {
+  border-radius: 3%; }
+
+.cabecera ul a {
+  color: white; }
+
+.navbar-brand {
+  font-size: 200%;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 500;
+  color: white; }
+
+/*................. FIN MENU NAV..............*/
+/*................ INICIO FOOTER...............*/
+.pie-pag {
+  background-color: #fdb6c2;
+  color: white;
+  display: flex;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 150%;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  text-align: center; }
+
+.pie-pag a i {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 1%; }
+
+.pie-pag a i:hover {
+  transform: scale(1.5);
+  transition: all 1s ease; }
+
+.Logos {
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: auto;
+  width: auto;
+  max-height: 110px;
+  max-width: 70px;
+  flex-wrap: wrap; }
+
+/*................ FIN FOOTER...............*/
+.contenido {
+  background-image: url(../images/Fondo-Index.jpg);
+  display: flex;
+  flex-direction: column; }
+
+.titulo-contenido {
+  color: #a83d9a;
+  font-family: 'Dancing Script', cursive;
+  font-size: 320%;
+  padding: 3%; }
+
+.texto-contenido {
+  display: flex;
+  font-family: 'Dancing Script', cursive;
+  font-size: 220%;
+  padding: 1%;
+  width: 50vw; }
+
+.GaleriaImg {
+  display: flex;
+  justify-items: left;
+  margin: 3% 65% 3% 3%; }
+
+.GaleriaImg img {
+  border-radius: 5%; }
+
+/*................ INICIO MAIN...............*/
+.fondo-serv {
+  background-image: url(../images/Fondo-Servicios.jpg); }
+
+.servicios {
+  display: grid;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 5%; }
+
+.btn {
+  background-color: #fdb6c2;
+  border-color: black;
+  color: black;
+  animation-name: parpadeo;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite; }
+
+.btn:hover {
+  background-color: #fdb6c2;
+  border-color: black;
+  color: black; }
+
+@-moz-keyframes parpadeo {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
+
+@-webkit-keyframes parpadeo {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
+
+/*................ FIN MAIN...............*/
+/*................MEDIA QUERIES...............*/
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  .texto-contenido {
+    width: 100vw;
+    padding: 4%; }
+  .titulo-contenido {
+    text-align: center; }
+  .GaleriaImg {
+    width: 100vw; } }

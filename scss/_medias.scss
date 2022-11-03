@@ -1,0 +1,17 @@
+/*................MEDIA QUERIES...............*/
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+
+    .texto-contenido {
+        width: 100vw;
+        padding: 4%;
+    }
+
+    .titulo-contenido {
+        text-align: center;
+    }
+
+    .GaleriaImg {
+        width: 100vw;
+    }
+}

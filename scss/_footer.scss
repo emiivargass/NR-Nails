@@ -1,0 +1,45 @@
+/*................ INICIO FOOTER...............*/
+
+.pie-pag {
+    background-color: $color-fondo;
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 150%;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pie-pag a i {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1%;
+
+}
+
+.pie-pag a i:hover {
+    transform: scale(1.5);
+    transition: all 1s ease;
+}
+
+.Logos {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+    width: auto;
+    max-height: 110px;
+    max-width: 70px;
+    flex-wrap: wrap;
+
+}
+
+
+
+/*................ FIN FOOTER...............*/

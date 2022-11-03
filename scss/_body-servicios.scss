@@ -1,0 +1,78 @@
+/*................ INICIO MAIN...............*/
+.fondo-serv {
+    background-image: url(../images/Fondo-Servicios.jpg);
+}
+
+.servicios {
+    display: grid;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+
+
+.btn {
+    background-color: rgb(253, 182, 194);
+    border-color: black;
+    color: black;
+    animation-name: parpadeo;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: parpadeo;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+.btn:hover{
+    background-color: rgb(253, 182, 194);
+    border-color: black;
+    color: black;
+}
+
+@-moz-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+
+/*................ FIN MAIN...............*/
