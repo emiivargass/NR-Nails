@@ -1,0 +1,20 @@
+
+
+.contenido-contacto{
+    display: grid;
+    margin: 1%;
+    justify-content: center;
+    align-items: center;
+
+    .redes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+.redes a{
+    margin: 3%;
+}
+
+}
