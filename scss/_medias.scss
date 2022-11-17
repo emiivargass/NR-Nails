@@ -1,4 +1,4 @@
-/*................MEDIA QUERIES...............*/
+/*................ INICIO MEDIA QUERIES...............*/
 
 @media screen and (min-width: 320px) and (max-width: 720px) {
 
@@ -32,12 +32,19 @@
 
 
     .mapa {
-        width: 90%;
+        width: 100%;
         margin: 0%;
         padding: 0%;
 
     }
 
-  
+    .alerta {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+
+    }
 
 }
+
+/*................ INICIO MEDIA QUERIES...............*/

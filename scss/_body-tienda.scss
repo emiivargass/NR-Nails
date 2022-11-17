@@ -1,4 +1,14 @@
+/*................ INICIO PAG TIENDA...............*/
+
 .tienda {
+    background-image: url(../images/FondoTienda.jpg);
+    background-size: 100%;
+    
+}
+
+
+.contenido-tienda {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,3 +16,5 @@
     margin: 5%;
 
 }
+
+/*................ FIN PAGINA TIENDA...............*/

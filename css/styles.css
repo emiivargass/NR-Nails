@@ -126,6 +126,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.turnos p, .contacto p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #421281;
+  font-weight: bold;
+  font-size: 2.3rem; }
+
+/*................. INICIO MENU NAV..............*/
 a,
 a:active {
   text-decoration: none; }
@@ -159,7 +168,7 @@ a:active {
   padding-left: 1%;
   padding-right: 1%;
   font-family: 'Dancing Script', cursive;
-  font-size: 150%;
+  font-size: 1.1rem;
   justify-content: space-between;
   align-items: center;
   align-items: center;
@@ -175,22 +184,13 @@ a:active {
   transform: scale(1.5);
   transition: all 1s ease; }
 
-.Logos {
-  display: flex;
-  justify-content: center;
-  margin: 0%;
-  padding: 0%;
-  height: auto;
-  width: auto;
-  max-height: 110px;
-  max-width: 70px;
-  flex-wrap: wrap; }
-
 /*................ FIN FOOTER...............*/
+/*................. INICIO INDEX..............*/
 .contenido {
   background-image: url(../images/Fondo-Index.jpg);
-  display: flex;
-  flex-direction: column; }
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 .titulo-contenido {
   color: #a83d9a;
@@ -213,9 +213,13 @@ a:active {
 .GaleriaImg img {
   border-radius: 5%; }
 
-/*................ INICIO MAIN...............*/
+/*................. FIN INDEX..............*/
+/*................ INICIO PAG SERVICIOS...............*/
 .fondo-serv {
-  background-image: url(../images/Fondo-Servicios.jpg); }
+  background-image: url(../images/Fondo-Servicios.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 .servicios {
   display: grid;
@@ -273,7 +277,14 @@ a:active {
   100% {
     opacity: 1.0; } }
 
-/*................ FIN MAIN...............*/
+/*................ FIN PAGINA SERVICIOS...............*/
+/*................ INICIO PAG TURNOS...............*/
+.turnos {
+  background-image: url(../images/FondoTurnos.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
 .calendario {
   font-family: "Dancing Script", cursive;
   text-align: center;
@@ -327,27 +338,36 @@ p {
   .boton-contacto button:hover {
     background-color: #b147db; }
 
+/*................ FIN PAG TURNOS...............*/
+/*................. INICIO PAG CONTACTO..............*/
+.contacto {
+  background-image: url(../images/FondoContacto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .contacto .mapa {
+    margin: 1%; }
+
 .contenido-contacto {
-  display: grid;
-  margin: 1%;
+  display: flex;
   justify-content: center;
   align-items: center; }
-  .contenido-contacto .redes {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-  .contenido-contacto .redes a {
-    margin: 3%; }
 
+/*................. FIN PAG CONTACTO..............*/
+/*................ INICIO PAG TIENDA...............*/
 .tienda {
+  background-image: url(../images/FondoTienda.jpg);
+  background-size: 100%; }
+
+.contenido-tienda {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 5%; }
 
-/*................MEDIA QUERIES...............*/
+/*................ FIN PAGINA TIENDA...............*/
+/*................ INICIO MEDIA QUERIES...............*/
 @media screen and (min-width: 320px) and (max-width: 720px) {
   .texto-contenido {
     width: 100vw;
@@ -364,6 +384,12 @@ p {
     text-align: start;
     margin: 0%; }
   .mapa {
-    width: 90%;
+    width: 100%;
     margin: 0%;
-    padding: 0%; } }
+    padding: 0%; }
+  .alerta {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center; } }
+
+/*................ INICIO MEDIA QUERIES...............*/

@@ -1,20 +1,28 @@
+/*................. INICIO PAG CONTACTO..............*/
 
+.contacto {
+    background-image: url(../images/FondoContacto.jpg);
+    @include size-background;
 
-.contenido-contacto{
-    display: grid;
-    margin: 1%;
+    .mapa {
+        margin: 1%;
+
+    }
+
+    p{
+        @extend %avisos;
+
+    }
+
+}
+
+.contenido-contacto {
+    display: flex;
     justify-content: center;
     align-items: center;
 
-    .redes{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-    }
-.redes a{
-    margin: 3%;
-}
+
 
 }
+
+/*................. FIN PAG CONTACTO..............*/

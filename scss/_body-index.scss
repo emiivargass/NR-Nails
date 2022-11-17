@@ -1,8 +1,8 @@
+/*................. INICIO INDEX..............*/
+
 .contenido {
     background-image: url(../images/Fondo-Index.jpg);
-    display: flex;
-    flex-direction: column;
-
+    @include size-background;
 
 }
 
@@ -33,3 +33,6 @@
 .GaleriaImg img {
     border-radius: 5%;
 }
+
+
+/*................. FIN INDEX..............*/

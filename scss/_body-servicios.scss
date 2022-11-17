@@ -1,6 +1,7 @@
-/*................ INICIO MAIN...............*/
+/*................ INICIO PAG SERVICIOS...............*/
 .fondo-serv {
     background-image: url(../images/Fondo-Servicios.jpg);
+    @include size-background;
 }
 
 .servicios {
@@ -85,4 +86,4 @@
 }
 
 
-/*................ FIN MAIN...............*/
+/*................ FIN PAGINA SERVICIOS...............*/
